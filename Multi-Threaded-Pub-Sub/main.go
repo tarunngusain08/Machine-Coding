@@ -22,7 +22,9 @@ func main() {
 	go publisher2.publish("chan1", channel1, wgPublishers)
 	go publisher2.publish("chan2", channel2, wgPublishers)
 
+	wgSubscribers.Add(1)
 	go func() {
+		defer wgSubscribers.Done()
 		wgPublishers.Wait()
 		close(channel1)
 		close(channel2)
