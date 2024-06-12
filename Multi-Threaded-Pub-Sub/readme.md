@@ -23,7 +23,7 @@ This project is a multi-threaded publish/subscribe (Pub/Sub) messaging system im
 
 ## Multi Goroutine Simulation
 
-<img width="830" alt="Screenshot 2024-06-12 at 6 10 19 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/56402197-c345-486f-ba83-88e8281d5623">
+<img width="825" alt="Screenshot 2024-06-12 at 6 14 07 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/031a3aaa-db4f-44ea-9bfc-3692e5ac0a64">
 
 
 ## Validations and Screenshots
