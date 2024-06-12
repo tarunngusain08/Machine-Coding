@@ -4,6 +4,7 @@
 
 This project is a multi-threaded publish/subscribe (Pub/Sub) messaging system implemented in Go. It allows publishers to broadcast messages to multiple subscribers in a thread-safe manner using Go's goroutines and channels. The system is designed to handle concurrent operations efficiently, ensuring that messages are delivered correctly and promptly to all subscribers.
 
+
 ## Key Components
 
 1. **Publisher and Subscriber Management**:
@@ -18,6 +19,12 @@ This project is a multi-threaded publish/subscribe (Pub/Sub) messaging system im
 3. **Thread-Safe Operation**:
    - Utilizes Go's goroutines and channels to manage concurrent operations.
    - Ensures that the system is thread-safe, preventing race conditions and ensuring data integrity.
+
+
+## Multi Goroutine Simulation
+
+<img width="830" alt="Screenshot 2024-06-12 at 6 10 19 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/56402197-c345-486f-ba83-88e8281d5623">
+
 
 ## Validations and Screenshots
 
