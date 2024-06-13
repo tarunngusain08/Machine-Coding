@@ -23,13 +23,15 @@ This project is a multi-threaded publish/subscribe (Pub/Sub) messaging system im
 
 ## Multi Goroutine Simulation
 
-<img width="825" alt="Screenshot 2024-06-12 at 6 14 07 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/031a3aaa-db4f-44ea-9bfc-3692e5ac0a64">
+<img width="706" alt="Screenshot 2024-06-13 at 6 13 14 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/5c87e884-6c55-4034-8e3d-67eb635c5142">
 
 
 ## Validations and Screenshots
 
-<img width="930" alt="Screenshot 2024-06-12 at 6 04 32 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/3014695a-fc8c-4a48-9f81-531269777be3">
+<img width="1396" alt="Screenshot 2024-06-13 at 6 10 39 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/732a6603-17d6-43f6-88d6-a5c5b08719a8">
 
-<img width="1033" alt="Screenshot 2024-06-12 at 6 04 44 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/726b2f37-0b9c-4941-9db5-d0e8c2b8ad81">
+<img width="1390" alt="Screenshot 2024-06-13 at 6 07 15 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/75ca98ef-086e-4dd2-b145-30ec1171551e">
 
-<img width="893" alt="Screenshot 2024-06-12 at 6 04 55 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/533a5c27-a30f-4ebb-b9ea-a9d0886a4a93">
+<img width="1445" alt="Screenshot 2024-06-13 at 6 08 01 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/2aa009b8-b0ff-466c-bd40-c8b5ef08dcff">
+
+<img width="1396" alt="Screenshot 2024-06-13 at 6 10 39 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/371e5d79-a4e4-43b6-add4-7e4e8d79b82a">
