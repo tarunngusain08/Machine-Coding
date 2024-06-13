@@ -34,4 +34,3 @@ This project is a multi-threaded publish/subscribe (Pub/Sub) messaging system im
 
 <img width="1445" alt="Screenshot 2024-06-13 at 6 08 01 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/2aa009b8-b0ff-466c-bd40-c8b5ef08dcff">
 
-<img width="1396" alt="Screenshot 2024-06-13 at 6 10 39 PM" src="https://github.com/tarunngusain08/Machine-Coding/assets/36428256/371e5d79-a4e4-43b6-add4-7e4e8d79b82a">
