@@ -5,15 +5,19 @@ import (
 	"sync"
 )
 
-type Subscriber struct {
+type subscriber struct {
 	Name string
 }
 
-func NewSubscriber(name string) *Subscriber {
-	return &Subscriber{Name: name}
+type Subscriber interface {
+	subscribe(channel <-chan string, wg *sync.WaitGroup)
 }
 
-func (s *Subscriber) subscribe(channel <-chan string, signal <-chan struct{}, wg *sync.WaitGroup) {
+func NewSubscriber(name string) Subscriber {
+	return &subscriber{Name: name}
+}
+
+func (s *subscriber) subscribe(channel <-chan string, wg *sync.WaitGroup) {
 	defer wg.Done()
 	for {
 		select {
@@ -22,10 +26,7 @@ func (s *Subscriber) subscribe(channel <-chan string, signal <-chan struct{}, wg
 				fmt.Println("Channel closed, subscriber", s.Name, "exiting")
 				return // Exit the goroutine if channel is closed
 			}
-			fmt.Println(val + "sub" + s.Name)
-		case <-signal:
-			fmt.Println("Received signal to stop, subscriber", s.Name, "exiting")
-			return // Exit the goroutine if signal received
+			fmt.Println(val + "->subscriber" + s.Name)
 		}
 	}
 }
